@@ -44,7 +44,7 @@ for i in range(0, len(amino_acid), 3):
     aa = amino_acid[i:i+3]
     #print(aa)
     if aa in new:
-        aminoAcidSeq.append(old[aa])
+        aminoAcidSeq.append(new[aa])
     else:
         print("Test failed")
 
